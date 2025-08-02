@@ -40,5 +40,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ./public --project-name=REMY-BLOG
+          command: pages deploy ./public --project-name=remy-blog
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
