@@ -39,11 +39,11 @@ jobs:
       - name: Run Claude Analysis
         uses: anthropics/claude-code-action@v1
         with:
+          anthropic_api_key: "-"
           settings: |
             {
               "env": {
-                "ANTHROPIC_BASE_URL": "https://llm.tailfeb87.ts.net",
-                "ANTHROPIC_API_KEY": "-"
+                "ANTHROPIC_BASE_URL": "https://llm.tailfeb87.ts.net"
               }
             }
           prompt: |
