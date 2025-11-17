@@ -43,7 +43,7 @@ jobs:
             {
               "env": {
                 "ANTHROPIC_BASE_URL": "https://llm.tailfeb87.ts.net",
-                "ANTHROPIC_AUTH_TOKEN": "-"
+                "ANTHROPIC_API_KEY": "-"
               }
             }
           prompt: |
